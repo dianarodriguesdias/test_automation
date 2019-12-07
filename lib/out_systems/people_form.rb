@@ -7,7 +7,7 @@ module OutSystems
 
     elements_config QAT.configuration.dig(:web, :people_form)
 
-    web_elements :new_people_text, :person_name_input, :person_surname_input, :person_date_of_birth, :save_person, :delete_person_btn
+    web_elements :new_people_text, :person_name_input, :person_surname_input, :person_date_of_birth, :save_person
 
     def initialize
       raise HomePageNotLoaded.new 'People form page was not loaded' unless has_selector? *selector_new_people_text
@@ -34,11 +34,6 @@ module OutSystems
       log.info 'Person was saved.'
     end
 
-    def delete_person
-      log.debug 'Deleting person...'
-      delete_person_btn.click
-    end
-
     action :goto_people!, returns: [OutSystems::Web::Page] do
       log.debug 'Redirecting to people form page'
       OutSystems::People.new
@@ -53,10 +48,6 @@ module OutSystems
     #   log.debug 'Changes where successfully made.'
     # end
     #
-    # def delete_movie
-    #   log.debug 'Deleting movie...'
-    #   delete_movie_btn.click
-    # end
     #
     # action :goto_movies!, returns: [OutSystems::Web::Page] do
     #   log.debug 'Redirecting to movies page'

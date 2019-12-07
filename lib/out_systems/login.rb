@@ -6,7 +6,7 @@ module OutSystems
 
     elements_config QAT.configuration.dig(:web, :login)
 
-    web_elements :login_button, :email_input, :password_input, :incorrect_login, :new_movie
+    web_elements :login_button, :email_input, :password_input, :incorrect_login
 
     def initialize
       raise LoginPageNotLoaded.new 'Login page was not loaded.' unless has_selector? *selector_login_button

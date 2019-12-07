@@ -3,9 +3,8 @@ Feature: Edit movie
 
   @test#4
   Scenario: Edit movie
-    Given the customer is logged in
-    And user checks if movie "QAD Movie Test" exist
-    And user navigates to movie form editing movie "QAD Movie Test"
+    Given the user is logged in
+    And user checks if movie "QS Movie Test" exists
+    And user navigates to movie form editing movie "QS Movie Test"
     When user edits description of the movie for "Long description"
     Then the movie was edited with success
-

@@ -11,6 +11,3 @@ locators:
   incorrect_login:
     xpath: ".//div[@class='Feedback_Message_Error']"
     wait: timeouts.browser.medium
-  new_movie:
-      xpath: ".//*[@id='wt29_OutSystemsUIWeb_wt2_block_wtContent_wtActions_wt34']"
-      wait: timeouts.browser.small

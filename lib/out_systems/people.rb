@@ -1,5 +1,5 @@
 require_relative '../web/page'
-require_relative 'login'
+require_relative 'movies'
 require_relative 'people_form'
 
 module OutSystems
@@ -8,7 +8,7 @@ module OutSystems
 
     elements_config QAT.configuration.dig(:web, :people)
 
-    web_elements :new_person, :person_name, :person_saved_success, :person_search, :search_btn
+    web_elements :new_person, :person_name, :person_saved_success
 
     def initialize
       raise HomePageNotLoaded.new 'People page was not loaded' unless has_selector? *selector_new_person
@@ -39,28 +39,6 @@ module OutSystems
         end
       rescue Capybara::ElementNotFound
         log.debug 'Person does not exist.'
-        false
-      end
-    end
-
-    def search_person(person_name)
-      log.debug 'Searching for person...'
-      person_search.set(person_name)
-      search_btn.click
-    end
-
-    def check_search_success(person_name)
-      begin
-        person = all(*extract_selector(config_person_name, person_name)).last
-        if person
-          log.debug 'Person found.'
-          true
-        else
-          log.debug 'Person not found.'
-          false
-        end
-      rescue Capybara::ElementNotFound
-        log.debug 'Person not found.'
         false
       end
     end

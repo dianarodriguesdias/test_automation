@@ -1,5 +1,5 @@
 require_relative '../web/page'
-require_relative 'login'
+require_relative 'movies'
 
 module OutSystems
   class MovieForm < OutSystems::Web::Page
@@ -8,8 +8,7 @@ module OutSystems
     elements_config QAT.configuration.dig(:web, :movie_form)
 
     web_elements :new_movie_text, :movie_title_input, :movie_year_input, :movie_plot_input, :movie_genre_combo, :movie_genre,
-                 :movie_gross_takings, :movie_available_dvd, :save_movie_form, :delete_movie_btn
-
+                 :movie_gross_takings, :movie_available_dvd, :save_movie_form
     def initialize
       raise HomePageNotLoaded.new 'Movie form page was not loaded' unless has_selector? *selector_new_movie_text
       #QAT::Reporter::Times.stop(:movie_loading)
@@ -39,11 +38,6 @@ module OutSystems
       log.info 'Saving movie changes...'
       save_movie_form.click
       log.debug 'Changes where successfully made.'
-    end
-
-    def delete_movie
-      log.debug 'Deleting movie...'
-      delete_movie_btn.click
     end
 
     action :goto_movies!, returns: [OutSystems::Web::Page] do

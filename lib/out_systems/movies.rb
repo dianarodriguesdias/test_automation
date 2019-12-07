@@ -9,7 +9,8 @@ module OutSystems
 
     elements_config QAT.configuration.dig(:web, :movies)
 
-    web_elements :goto_login, :login_img, :login_user_text, :new_movie, :movie_title, :movie_description, :movie_saved_success, :people_tab
+    web_elements :goto_login, :login_img, :login_user_text, :new_movie, :movie_title, :movie_description, :movie_saved_success, :people_tab,
+                 :movie_search, :search_button
 
     def initialize
       #raise HomePageNotLoaded.new 'Movies page was not loaded' unless has_selector? *selector_new_movie
@@ -61,6 +62,28 @@ module OutSystems
         end
       rescue Capybara::ElementNotFound
         log.debug 'Movie does not exist.'
+        false
+      end
+    end
+
+    def search_movie(movie_name)
+      log.debug 'Searching for movie title...'
+      movie_search.set(movie_name)
+      search_button.click
+    end
+
+    def check_search_success(movie_name)
+      begin
+        movie = all(*extract_selector(config_movie_search, movie_name)).last
+        if movie
+          log.debug 'Movie found.'
+          true
+        else
+          log.debug 'Movie not found.'
+          false
+        end
+      rescue Capybara::ElementNotFound
+        log.debug 'Movie not found.'
         false
       end
     end

@@ -9,8 +9,8 @@ locators:
     xpath: ".//span[@class='loginusername'][contains(text(),'$0')]"
     wait: timeouts.browser.small
   new_movie:
-    xpath: ".//*[@id='wt29_OutSystemsUIWeb_wt2_block_wtContent_wtActions_wt34']"
-    wait: timeouts.browser.small
+    xpath: ".//*[@id='wt11_OutSystemsUIWeb_wt2_block_wtContent_wtActions_wt2']"
+    wait: timeouts.browser.big
   movie_title:
     xpath: ".//td[contains(@class, 'TableRecords')]//a[contains(text(),'$0')]"
     wait: timeouts.browser.small
@@ -21,5 +21,11 @@ locators:
     xpath: ".//div[@class='Feedback_Message_Success']"
     wait: timeouts.browser.medium
   people_tab:
-    xpath: ".//*[@id='wt29_OutSystemsUIWeb_wt2_block_wtHeader_wtCenter_wt40_RichWidgets_wt7_block_wtMenuItem_wt3']"
+    xpath: ".//*[@id='wt11_OutSystemsUIWeb_wt2_block_wtHeader_wtCenter_wt19_RichWidgets_wt2_block_wtMenuItem_wt11']"
+    wait: timeouts.browser.small
+  movie_search:
+    xpath: ".//*[@id='wt11_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt25']"
+    wait: timeouts.browser.small
+  search_button:
+    xpath: "//*[@id='wt11_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt26']"
     wait: timeouts.browser.small

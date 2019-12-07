@@ -1,19 +1,16 @@
 locators:
   new_people_text:
-    xpath: ".//*[@id='wt32_OutSystemsUIWeb_wt2_block_wtContent_wtTitle']"
+    xpath: ".//*[@id='wt35_OutSystemsUIWeb_wt2_block_wtContent_wtTitle']"
     wait: timeouts.browser.small
   person_name_input:
-    xpath: ".//*[@id='wt32_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtPerson_Name']"
+    xpath: ".//*[@id='wt35_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtPerson_Name']"
     wait: timeouts.browser.small
   person_surname_input:
-    xpath: ".//*[@id='wt32_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtPerson_Surname']"
+    xpath: ".//*[@id='wt35_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtPerson_Surname']"
     wait: timeouts.browser.small
   person_date_of_birth:
-    xpath: ".//*[@id='wt32_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtPerson_DateOfBirth']"
+    xpath: ".//*[@id='wt35_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtPerson_DateOfBirth']"
     wait: timeouts.browser.small
   save_person:
-    xpath: "//*[@id='wt32_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt11']"
-    wait: timeouts.browser.small
-  delete_person_btn:
-    xpath: "//*[@id='wt32_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt5']"
+    xpath: "//*[@id='wt35_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt17']"
     wait: timeouts.browser.small

@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="0" errors="0" skipped="0" tests="1" time="20.655" name="Login successful into OS demo tutorial">
-<testcase classname="Login successful into OS demo tutorial" name="Login successful into OS demo tutorial" time="20.655">
+<testsuite failures="1" errors="0" skipped="0" tests="1" time="36.676" name="Login successful into QS demo">
+<testcase classname="Login successful into QS demo" name="Login successful into QS demo" time="36.676">
+  <failure message="failed Login successful into QS demo" type="failed">
+    <![CDATA[Scenario: Login successful into QS demo
+
+Given navigate to QS demo homepage
+
+Message:
+]]>
+    <![CDATA[Failed to decode response from marionette (Selenium::WebDriver::Error::UnknownError)
+./lib/web/world.rb:17:in `browser'
+./features/step_definitions/steps.rb:3:in `/^navigate to QS demo homepage$/'
+features/successful_login.feature:6:in `Given navigate to QS demo homepage']]>
+  </failure>
   <system-out>
     <![CDATA[]]>
   </system-out>
   <system-err>
-    <![CDATA[/home/mcautela/.rvm/gems/ruby-2.5.5@os/gems/selenium-webdriver-3.142.3/lib/selenium/webdriver/common/platform.rb:154: warning: Insecure world writable dir /mnt/c/Users/Margarida Cautela/RubymineProjects/outsystems-automated-tests/ in PATH, mode 040777
+    <![CDATA[/home/dianadias/.rvm/gems/ruby-2.5.5@QS_automation_test/gems/headless-2.3.1/lib/headless/cli_util.rb:16: warning: Insecure world writable dir /home/dianadias/.rvm/rubies/ruby-2.5.5 in PATH, mode 040777
 ]]>
   </system-err>
 </testcase>
