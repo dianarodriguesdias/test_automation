@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="0" tests="1" time="20.655" name="Login successful into OS demo tutorial">
+<testcase classname="Login successful into OS demo tutorial" name="Login successful into OS demo tutorial" time="20.655">
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[/home/mcautela/.rvm/gems/ruby-2.5.5@os/gems/selenium-webdriver-3.142.3/lib/selenium/webdriver/common/platform.rb:154: warning: Insecure world writable dir /mnt/c/Users/Margarida Cautela/RubymineProjects/outsystems-automated-tests/ in PATH, mode 040777
+]]>
+  </system-err>
+</testcase>
+</testsuite>

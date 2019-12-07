@@ -1,0 +1,25 @@
+locators:
+  goto_login:
+    xpath: ".//*[@id='wt11_OutSystemsUIWeb_wt2_block_wtHeader_wtRight_wt4_wtLogin']"
+    wait: timeouts.browser.small
+  login_img:
+    xpath: '/html/body/form/div[4]/div/header/div/div[1]/div[4]/div/div/img'
+    wait: timeouts.browser.small
+  login_user_text:
+    xpath: ".//span[@class='loginusername'][contains(text(),'$0')]"
+    wait: timeouts.browser.small
+  new_movie:
+    xpath: ".//*[@id='wt29_OutSystemsUIWeb_wt2_block_wtContent_wtActions_wt34']"
+    wait: timeouts.browser.small
+  movie_title:
+    xpath: ".//td[contains(@class, 'TableRecords')]//a[contains(text(),'$0')]"
+    wait: timeouts.browser.small
+  movie_description:
+    xpath: ".//td[contains(@class, 'TableRecords')][contains(text(),'$0')]"
+    wait: timeouts.browser.small
+  movie_saved_success:
+    xpath: ".//div[@class='Feedback_Message_Success']"
+    wait: timeouts.browser.medium
+  people_tab:
+    xpath: ".//*[@id='wt29_OutSystemsUIWeb_wt2_block_wtHeader_wtCenter_wt40_RichWidgets_wt7_block_wtMenuItem_wt3']"
+    wait: timeouts.browser.small

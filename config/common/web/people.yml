@@ -1,0 +1,16 @@
+locators:
+  new_person:
+    xpath: ".//*[@id='wt16_OutSystemsUIWeb_wt2_block_wtContent_wtActions_wt25']"
+    wait: timeouts.browser.small
+  person_name:
+    xpath: ".//td[contains(@class, 'TableRecords')]//a[contains(text(),'$0')]"
+    wait: timeouts.browser.small
+  person_saved_success:
+    xpath: ".//div[@class='Feedback_Message_Success']"
+    wait: timeouts.browser.medium
+  person_search:
+    xpath: ".//*[@id='wt16_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt9']"
+    wait: timeouts.browser.small
+  search_btn:
+    xpath: "//*[@id='wt16_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt5']"
+    wait: timeouts.browser.small

@@ -1,0 +1,7 @@
+successful:
+  username: 'testedemo'
+  password: 'testedemo'
+
+unsuccessful:
+  username: 'demo'
+  password: 'wrong_password'

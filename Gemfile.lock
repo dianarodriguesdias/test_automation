@@ -1,0 +1,118 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.0.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.1, >= 2.1.8)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    awesome_print (1.8.0)
+    builder (3.2.3)
+    capybara (3.15.1)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (~> 1.2)
+      xpath (~> 3.2)
+    childprocess (3.0.0)
+    chronic (0.10.2)
+    concurrent-ruby (1.1.5)
+    cucumber (2.99.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 1.5.0)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 4.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (1.5.0)
+      gherkin (~> 4.0)
+    cucumber-wire (0.0.1)
+    diff-lcs (1.3)
+    gelf (3.1.0)
+      json
+    gherkin (4.1.3)
+    headless (2.3.1)
+    i18n (1.7.0)
+      concurrent-ruby (~> 1.0)
+    json (2.2.0)
+    little-plugger (1.1.4)
+    log4r (1.1.10)
+    log4r-gelf (1.1.0)
+      gelf (>= 1.4.0)
+      log4r (~> 1.1.10)
+    mini_mime (1.0.2)
+    mini_portile2 (2.4.0)
+    minitest (5.12.2)
+    multi_json (1.14.1)
+    multi_test (0.1.2)
+    net-ntp (2.1.3)
+    net-ssh (3.2.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
+    public_suffix (4.0.1)
+    qat-core (6.0.0)
+      activesupport
+      chronic (~> 0.10, >= 0.10.2)
+      little-plugger (~> 1.1, >= 1.1.4)
+      net-ntp (~> 2.1, >= 2.1.3)
+      net-ssh (~> 3.1)
+      nokogiri
+      qat-logger (~> 6.0)
+      timecop (~> 0.8)
+      timezone_local (~> 0.1, >= 0.1.5)
+      tzinfo-data
+    qat-cucumber (6.0.3)
+      activesupport
+      cucumber (~> 2.4)
+      qat-core (~> 6.0)
+      rake
+    qat-logger (6.0.0)
+      awesome_print (~> 1.2)
+      log4r (~> 1.1)
+      log4r-gelf (~> 1.1)
+    qat-web (6.1.2)
+      activesupport
+      capybara
+      little-plugger (~> 1.1, >= 1.1.4)
+      qat-logger (~> 6.0)
+      retriable
+    rack (2.0.7)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rake (13.0.0)
+    regexp_parser (1.6.0)
+    retriable (3.1.2)
+    rubyzip (2.0.0)
+    selenium-webdriver (3.142.6)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    thread_safe (0.3.6)
+    timecop (0.9.1)
+    timezone_local (0.1.5)
+      tzinfo (>= 0.3.24)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2019.3)
+      tzinfo (>= 1.0.0)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+    zeitwerk (2.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capybara (~> 3.15.0)
+  headless
+  qat-cucumber
+  qat-web
+  selenium-webdriver
+
+BUNDLED WITH
+   2.0.2

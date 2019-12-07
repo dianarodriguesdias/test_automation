@@ -1,0 +1,228 @@
+[
+  {
+    "uri": "/mnt/c/Users/Diana Dias/RubymineProjects/test_automation/features/add_movie.feature",
+    "id": "create-movie",
+    "keyword": "Feature",
+    "name": "Create movie",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@OS",
+        "line": 1
+      },
+      {
+        "name": "@movie",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "create-movie;create-movie",
+        "keyword": "Scenario",
+        "name": "Create movie",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@OS",
+            "line": 1
+          },
+          {
+            "name": "@movie",
+            "line": 1
+          },
+          {
+            "name": "@test#3",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3393500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43500
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100225900
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the customer is logged in",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30361380700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 35700
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user navigates to movie form",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Unable to find xpath \".//*[@id='wt29_OutSystemsUIWeb_wt2_block_wtContent_wtActions_wt34']\"\nQAT::Web last access to configuration was '{:xpath=>\".//span[@class='loginusername'][contains(text(),'QS_DEMO')]\", :wait=>5}' (Capybara::ElementNotFound)\n./lib/out_systems/movies.rb:76:in `block in <class:Movies>'\n./features/step_definitions/steps.rb:29:in `/^user navigates to movie form$/'\n./features/add_movie.feature:7:in `And user navigates to movie form'",
+              "duration": 5005080400
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "user fills all fields in movie form with movie title \"QAD Movie Test\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:32"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "the movie is created with success",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/steps.rb:38"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13198300
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233196200
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294878200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176411700
+            }
+          },
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2759400
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
