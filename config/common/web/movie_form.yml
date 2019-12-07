@@ -1,0 +1,28 @@
+locators:
+  new_movie_text:
+    xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtTitle']"
+    wait: timeouts.browser.big
+  movie_title_input:
+    xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtMovie_Title']"
+    wait: timeouts.browser.small
+  movie_year_input:
+    xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtMovie_Year']"
+    wait: timeouts.browser.small
+  movie_plot_input:
+    xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtMovie_PlotSummary']"
+    wait: timeouts.browser.small
+  movie_genre_combo:
+    xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtMovie_GenreId']"
+    wait: timeouts.browser.small
+  movie_genre:
+    xpath: "/html/body/form/div[4]/div/div/main/div[3]/div[1]/div[1]/div[5]/select/option[$0]"
+    wait: timeouts.browser.small
+  movie_gross_takings:
+    xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtMovie_GrossTakingsAmount']"
+    wait: timeouts.browser.small
+  movie_available_dvd:
+    xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtMovie_IsAvailableOnDVD']"
+    wait: timeouts.browser.small
+  save_movie_form:
+    xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt81']"
+    wait: timeouts.browser.small

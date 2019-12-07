@@ -1,0 +1,13 @@
+locators:
+  login_button:
+    xpath: "//*[@id='OutSystemsUIWeb_wt14_block_wtLogin_OutSystemsUIWeb_wt15_block_wtLogin_wt13']"
+    wait: timeouts.browser.small
+  email_input:
+    xpath: "//*[@id='OutSystemsUIWeb_wt14_block_wtLogin_OutSystemsUIWeb_wt15_block_wtLogin_OutSystemsUIWeb_wt26_block_wtInput_wtUserNameInput']"
+    wait: timeouts.browser.small
+  password_input:
+    xpath: "//*[@id='OutSystemsUIWeb_wt14_block_wtLogin_OutSystemsUIWeb_wt15_block_wtLogin_OutSystemsUIWeb_wt6_block_wtInput_wtPasswordInput']"
+    wait: timeouts.browser.small
+  incorrect_login:
+    xpath: ".//div[@class='Feedback_Message_Error']"
+    wait: timeouts.browser.medium
