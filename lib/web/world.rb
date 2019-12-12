@@ -2,7 +2,6 @@ require_relative 'page_manager'
 require_relative '../../lib/out_systems/movies'
 require 'qat/web'
 require 'selenium-webdriver'
-
 require_relative 'remote_driver'
 
 QAT::Web::Browser::AutoLoad.load_browsers!

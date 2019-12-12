@@ -1,17 +1,15 @@
 # login steps
-Given(/^navigate to QS demo homepage$/) do
+Given(/^the user navigates to QS demo homepage$/) do
   browser.navigate_movies!
 end
 
 And(/^a login is performed in QS demo$/) do
   browser.goto_login!
-
   if QAT[:scenario_tags].include? '@unsuccessful'
     username, password = QAT.configuration.dig(:users, :unsuccessful).values_at(:username, :password)
   else
     username, password = QAT.configuration.dig(:users, :successful).values_at(:username, :password)
   end
-
   browser.perform_login(username, password)
 end
 
@@ -40,7 +38,7 @@ Then(/^the movie is created with success$/) do
 end
 
 Given(/^the user is logged in$/) do
-  step('navigate to QS demo homepage')
+  step('the user navigates to QS demo homepage')
   step('a login is performed in QS demo')
   step('Login is "successful"')
 end
@@ -116,9 +114,9 @@ end
 
 And(/^user search for the movie title "([^"]*)"$/) do |movie_name|
   @movie_name = movie_name
-  browser.search_movie movie_name
+  browser.search_movie(movie_name)
 end
 
 Then(/^the search is completed with success$/) do
-  browser.check_search_success @movie_name
+  browser.check_search_success(@movie_name)
 end

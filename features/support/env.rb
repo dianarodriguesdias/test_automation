@@ -1,5 +1,4 @@
 # -*- encoding : utf-8 -*-
-require 'qat/cucumber'
 
 ############################################
 # Requires for your code libraries go here #
@@ -13,8 +12,6 @@ require 'qat/cucumber'
 require 'qat/configuration'
 require 'qat/web/cucumber'
 require_relative '../../lib/web/world'
-require 'qat/core_ext/integer'
-require_relative '../../lib/core_ext/cucumber/formatter/json'
 
 World OutSystems::Web::World
 

@@ -1,3 +1,1635 @@
 [
-
+  {
+    "uri": "/mnt/c/Users/Diana Dias/RubymineProjects/test_automation/features/add_movie.feature",
+    "id": "add-movie",
+    "keyword": "Feature",
+    "name": "Add movie",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@OS",
+        "line": 1
+      },
+      {
+        "name": "@movie",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "add-movie;create-movie",
+        "keyword": "Scenario",
+        "name": "Create movie",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@OS",
+            "line": 1
+          },
+          {
+            "name": "@movie",
+            "line": 1
+          },
+          {
+            "name": "@test#3",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4212900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18600
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26700
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50719300
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70600
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user is logged in",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13039747400
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 21000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user navigates to movie form",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 786819400
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 18100
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "user fills all fields in movie form with movie title \"QS Movie Test\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2372315200
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11700
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "the movie is created with success",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/steps.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 210372100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 10200
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49700
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16100
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11700
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49230000
+            }
+          },
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3219900
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "/mnt/c/Users/Diana Dias/RubymineProjects/test_automation/features/add_person.feature",
+    "id": "add-person",
+    "keyword": "Feature",
+    "name": "Add person",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@OS",
+        "line": 1
+      },
+      {
+        "name": "@people",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "add-person;create-person",
+        "keyword": "Scenario",
+        "name": "Create person",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@OS",
+            "line": 1
+          },
+          {
+            "name": "@people",
+            "line": 1
+          },
+          {
+            "name": "@test#6",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 634600
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39200
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65800
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33700
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user is logged in",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2216945200
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user navigates to people tab",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 612140700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11900
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user navigates to people form",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 678529400
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 18800
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "user fills all fields in person form with person name \"QS User\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/steps.rb:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 929148800
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 18000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "the person is created with success",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/steps.rb:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236045900
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11400
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17500
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8200
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65562900
+            }
+          },
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6858700
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "/mnt/c/Users/Diana Dias/RubymineProjects/test_automation/features/edit_movie.feature",
+    "id": "edit-movie",
+    "keyword": "Feature",
+    "name": "Edit movie",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@OS",
+        "line": 1
+      },
+      {
+        "name": "@movie",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "edit-movie;edit-movie",
+        "keyword": "Scenario",
+        "name": "Edit movie",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@OS",
+            "line": 1
+          },
+          {
+            "name": "@movie",
+            "line": 1
+          },
+          {
+            "name": "@test#4",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575700
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27200
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59800
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user is logged in",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2696323900
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 12000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user checks if movie \"QS Movie Test\" exists",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56038100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11300
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user navigates to movie form editing movie \"QS Movie Test\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 847644800
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 12200
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "user edits description of the movie for \"Long description\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/steps.rb:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1166824600
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 19600
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "the movie was edited with success",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/steps.rb:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 357430100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 16200
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31700
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92400
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78476900
+            }
+          },
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2674700
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "/mnt/c/Users/Diana Dias/RubymineProjects/test_automation/features/edit_person.feature",
+    "id": "edit-person",
+    "keyword": "Feature",
+    "name": "Edit person",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@OS",
+        "line": 1
+      },
+      {
+        "name": "@people",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "edit-person;edit-person",
+        "keyword": "Scenario",
+        "name": "Edit person",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@OS",
+            "line": 1
+          },
+          {
+            "name": "@people",
+            "line": 1
+          },
+          {
+            "name": "@test#7",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 771400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46600
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87600
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56300
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user is logged in",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2681768400
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 12400
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user navigates to people tab",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 744884600
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 19000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user checks if person \"QS User\" exists",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38127900
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 10900
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user navigates to person form editing person \"QS User\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/steps.rb:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 721750400
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 10700
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "user edits surname of the person for \"User\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/steps.rb:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 882361800
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 10700
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "the person was edited with success",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/steps.rb:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182480100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 19300
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61800
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336000
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79182600
+            }
+          },
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2463200
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "/mnt/c/Users/Diana Dias/RubymineProjects/test_automation/features/search_movie.feature",
+    "id": "search-movie",
+    "keyword": "Feature",
+    "name": "Search movie",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@OS",
+        "line": 1
+      },
+      {
+        "name": "@movie",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "search-movie;search-movie",
+        "keyword": "Scenario",
+        "name": "Search movie",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@OS",
+            "line": 1
+          },
+          {
+            "name": "@movie",
+            "line": 1
+          },
+          {
+            "name": "@test#5",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 647000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70500
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62500
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user is logged in",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3100791500
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 15800
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user search for the movie title \"Avengers: Infinity War\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:115"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 865247700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 15900
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "the search is completed with success",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35720100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 10400
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15700
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7500
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41408200
+            }
+          },
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1858600
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "/mnt/c/Users/Diana Dias/RubymineProjects/test_automation/features/successful_login.feature",
+    "id": "login-successful-into-qs-demo",
+    "keyword": "Feature",
+    "name": "Login successful into QS demo",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@OS",
+        "line": 1
+      },
+      {
+        "name": "@successful",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "login-successful-into-qs-demo;login-successful-into-qs-demo",
+        "keyword": "Scenario",
+        "name": "Login successful into QS demo",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@OS",
+            "line": 1
+          },
+          {
+            "name": "@successful",
+            "line": 1
+          },
+          {
+            "name": "@test#1",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 591200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63100
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67200
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to QS demo homepage",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 523975300
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 126700
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "a login is performed in QS demo",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1578340600
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 20700
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "Login is \"successful\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89847100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 14200
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13700
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77648700
+            }
+          },
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1826500
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "/mnt/c/Users/Diana Dias/RubymineProjects/test_automation/features/unsuccessful_login.feature",
+    "id": "login-unsuccessful-into-qs-demo",
+    "keyword": "Feature",
+    "name": "Login unsuccessful into QS demo",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@OS",
+        "line": 1
+      },
+      {
+        "name": "@unsuccessful",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "login-unsuccessful-into-qs-demo;login-unsuccessful-into-qs-demo",
+        "keyword": "Scenario",
+        "name": "Login unsuccessful into QS demo",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@OS",
+            "line": 1
+          },
+          {
+            "name": "@unsuccessful",
+            "line": 1
+          },
+          {
+            "name": "@test#2",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21800
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59300
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to QS demo homepage",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 504444800
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 19300
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "a login is performed in QS demo",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1554753800
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 18200
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "Login is \"unsuccessful\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 463781100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:62"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 18300
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21700
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/screenshot.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8500
+            }
+          },
+          {
+            "match": {
+              "location": "qat-web-6.1.2/lib/qat/web/hooks/html_dump.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.15.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52322000
+            }
+          },
+          {
+            "match": {
+              "location": "qat-cucumber-6.0.3/lib/qat/cucumber/hooks.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2726900
+            }
+          }
+        ]
+      }
+    ]
+  }
 ]

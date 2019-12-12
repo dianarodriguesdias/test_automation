@@ -11,7 +11,6 @@ module OutSystems
                  :movie_gross_takings, :movie_available_dvd, :save_movie_form
     def initialize
       raise HomePageNotLoaded.new 'Movie form page was not loaded' unless has_selector? *selector_new_movie_text
-      #QAT::Reporter::Times.stop(:movie_loading)
       log.info "Loaded movie form page with URL: #{current_url}"
     end
 

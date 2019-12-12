@@ -12,7 +12,6 @@ module OutSystems
 
     def initialize
       raise HomePageNotLoaded.new 'People page was not loaded' unless has_selector? *selector_new_person
-      #$QAT::Reporter::Times.stop(:movie_loading)
       log.info "Loaded people page with URL: #{current_url}"
     end
 

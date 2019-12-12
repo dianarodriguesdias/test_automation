@@ -17,7 +17,7 @@ module OutSystems
 
     def fill_person_form(person_name)
       log.info 'Filling person form...'
-      person_full_name = person_name.split( )
+      person_full_name = person_name.split
       person_name_input.set(person_full_name.first)
       person_surname_input.set(person_full_name.last)
       person_date_of_birth.set('1993-04-09')
@@ -38,21 +38,6 @@ module OutSystems
       log.debug 'Redirecting to people form page'
       OutSystems::People.new
     end
-
-    #
-    # def edit_movie(movie_to_edit, description)
-    #   log.info "Editing movie #{movie_to_edit}..."
-    #   movie_plot_input.set(description)
-    #   log.info 'Saving movie changes...'
-    #   save_movie_form.click
-    #   log.debug 'Changes where successfully made.'
-    # end
-    #
-    #
-    # action :goto_movies!, returns: [OutSystems::Web::Page] do
-    #   log.debug 'Redirecting to movies page'
-    #   OutSystems::Movies.new
-    # end
 
     private
 

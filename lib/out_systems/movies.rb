@@ -13,8 +13,6 @@ module OutSystems
                  :movie_search, :search_button
 
     def initialize
-      #raise HomePageNotLoaded.new 'Movies page was not loaded' unless has_selector? *selector_new_movie
-      # QAT::Reporter::Times.stop(:movie_loading)
       log.info "Loaded movies page with URL: #{current_url}"
     end
 
