@@ -24,5 +24,6 @@ locators:
     xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wtMovie_IsAvailableOnDVD']"
     wait: timeouts.browser.small
   save_movie_form:
+    #xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt32']"
     xpath: ".//*[@id='wt8_OutSystemsUIWeb_wt2_block_wtContent_wtMainContent_wt81']"
     wait: timeouts.browser.small

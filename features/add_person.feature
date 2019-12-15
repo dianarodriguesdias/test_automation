@@ -2,7 +2,7 @@
 Feature: Add person
 
   @test#6
-  Scenario: Create person
+  Scenario: Add person
     Given the user is logged in
     And user navigates to people tab
     And user navigates to people form
