@@ -5,7 +5,6 @@ module OutSystems
     include QAT::Logger
 
     elements_config QAT.configuration.dig(:web, :login)
-
     web_elements :login_button, :email_input, :password_input, :incorrect_login
 
     def initialize

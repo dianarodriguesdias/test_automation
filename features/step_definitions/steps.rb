@@ -3,12 +3,14 @@ Given(/^the user navigates to QS demo homepage$/) do
   browser.navigate_movies!
 end
 
-And(/^a login is performed in QS demo$/) do
+When(/^a login is performed in QS demo$/) do
   browser.goto_login!
   if QAT[:scenario_tags].include? '@unsuccessful'
-    username, password = QAT.configuration.dig(:users, :unsuccessful).values_at(:username, :password)
+    username, password =
+        QAT.configuration.dig(:users, :unsuccessful).values_at(:username, :password)
   else
-    username, password = QAT.configuration.dig(:users, :successful).values_at(:username, :password)
+    username, password =
+        QAT.configuration.dig(:users, :successful).values_at(:username, :password)
   end
   browser.perform_login(username, password)
 end
